@@ -1,4 +1,4 @@
-### 使用AngularJs高仿饿了么APP
+### 使用 Vue + WebPack 高仿饿了么APP
 
 #### Web App 的模块划分  
 
