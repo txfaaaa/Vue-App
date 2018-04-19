@@ -11,9 +11,13 @@
 APP.vue
 
 * 头部组件: header.vue
+
     * 星星组件: star.vue
+    
 * tab划分, 定义路由: route-link标签
+
 * 路由切换页面: route-view标签
+
     * goods.vue
     
         * 购物车控制组件: cartcontrol.vue
