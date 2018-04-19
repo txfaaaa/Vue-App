@@ -1,6 +1,38 @@
-# Vue高仿饿了么APP
-> 使用vue@2.0开发的高仿饿了么APP（用户端）
+### 使用AngularJs高仿饿了么APP
 
+#### Web App 的模块划分  
+
+* 商品 goods.vue
+* 评价 ratings.vue
+* 商家 seller.vue
+
+### 项目详情
+
+APP.vue
+
+* 头部组件: header.vue
+    * 星星组件: star.vue
+* tab划分, 定义路由: route-link标签
+* 路由切换页面: route-view标签
+    * goods.vue
+    
+        * 购物车控制组件: cartcontrol.vue
+        * 商品详情: food.vue
+            * 间隔组件: split.vue  
+            * 购物车控制组件: cartcontrol.vue
+            * 评价切换组件: ratingselect.vue
+        * 购物车组件: shopcart.vue 
+            * 购物车控制组件: cartcontrol.vue
+    * ratings.vue
+
+        * 评价切换组件: ratingselect.vue 
+        * 间隔组件: split.vue 
+        * 星星组件: star.vue
+    * seller.vue    
+    
+        * 间隔组件: split.vue  
+        * 星星组件: star.vue
+        
 ## 主要依赖
 - 基于vue@2.0
 - 使用vue-cli@2.0搭建项目框架
